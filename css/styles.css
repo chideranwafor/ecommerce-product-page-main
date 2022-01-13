@@ -465,7 +465,7 @@ button.add-to-cart:hover {
     
     div.right p.second-p {
         font-size: 30.5px;
-        color: hsl(220, 13%, 13%);
+        color: var(--darkBlue);
         font-weight: 700;
         margin-bottom: 0;
     }
