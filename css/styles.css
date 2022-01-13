@@ -3,14 +3,19 @@
     font-family: 'Kumbh Sans', sans-serif !important;
 }
 
+:root {
+    --mainWhite: hsl(0, 0%, 100%);
+    --mainOrange: hsl(26, 100%, 55%);
+    --lightOrange: hsl(25, 100%, 94%);
+    --darkBlue: hsl(220, 13%, 13%);
+    --darkGrayishBlue: hsl(219, 9%, 45%);
+    --grayishBlue: hsl(220, 14%, 75%);
+    --lightGrayishBlue: hsl(223, 64%, 98%);
+    --mainBlack: hsl(0, 0%, 0%);
+}
+
 body {
-    background-color: hsl(0, 0%, 100%) !important;
-    /* background-color: hsl(220, 13%, 13%) !important;
-    background-color: hsl(219, 9%, 45%) !important;
-    background-color: hsl(220, 14%, 75%) !important;
-    background-color: hsl(223, 64%, 98%) !important;
-    background-color: hsl(0, 0%, 100%) !important;
-    background-color: hsl(0, 0%, 0%) !important; */
+    background-color: var(--mainWhite) !important;
 }
 
 nav {
@@ -19,14 +24,14 @@ nav {
 
 nav div.container-fluid {
     padding: 0 !important;
-    border-bottom: 1px solid hsl(220, 14%, 75%);
+    border-bottom: 1px solid var(--grayishBlue);
 }
 
 .navbar-brand {
     padding: 0 !important;
     margin-right: 3rem !important;
     line-height: 100px;
-    color: hsl(220, 13%, 13%) !important;
+    color: var(--darkBlue) !important;
 }
 
 .navbar-collapse {
@@ -44,14 +49,12 @@ a.closebtn {
     letter-spacing: -0.03em;
     padding: 0 !important;
     margin: 0 1rem;
-    color: hsl(219, 9%, 45%) !important;
+    color: var(--darkGrayishBlue) !important;
 }
 
 .nav-link3:hover {
     color: hsl(220, 13%, 13%) !important;
-    border-bottom: 2px solid hsl(26, 100%, 55%);
-    /* color: hsl(26, 100%, 55%);
-    color: hsl(25, 100%, 94%); */
+    border-bottom: 2px solid var(--mainOrange);
 }
 
 .nav-link1 {
@@ -60,8 +63,8 @@ a.closebtn {
 
 .nav-link1 span.cart-num {
     vertical-align: super;
-    background-color: hsl(26, 100%, 55%);
-    color: hsl(0, 0%, 100%);
+    background-color: var(--mainOrange);
+    color: var(--mainWhite);
     font-size: 8px;
     border-radius: 35%;
     padding: 2px 6px;
@@ -87,10 +90,10 @@ li.nav-item div.dropdown-menu ul {
 h3.cart {
     font-size: 16.5px;
     font-weight: 700;
-    color: hsl(220, 13%, 13%);
+    color: var(--darkBlue);
     padding: 20px;
     margin: 0;
-    border-bottom: 1px solid hsl(220, 14%, 75%);
+    border-bottom: 1px solid var(--grayishBlue);
 }
 
 ul#buyItem h4 {
@@ -116,7 +119,7 @@ ul#buyItem li div h5,
 ul#buyItem li div p {
     font-size: 16.5px;
     font-weight: 400;
-    color: hsl(219, 9%, 45%);
+    color: var(--darkGrayishBlue);
 }
 
 ul#buyItem li div h5 {
@@ -129,7 +132,7 @@ ul#buyItem li div p {
 
 ul#buyItem li div p span {
     font-weight: 700;
-    color: hsl(220, 13%, 13%);
+    color: var(--darkBlue);
 }
 
 ul#buyItem li button.delete {
@@ -142,8 +145,8 @@ ul#buyItem li button.delete img {
 }
 
 button.check-out {
-    background-color: hsl(26, 100%, 55%);
-    color: hsl(0, 0%, 100%);
+    background-color: var(--mainOrange);
+    color: var(--mainWhite);
     border-radius: 8px;
     font-size: 16.5px;
     width: 89%;
@@ -160,7 +163,7 @@ button.check-out {
 }
 
 .nav-link2 img:hover {
-    border: 2px solid hsl(26, 100%, 55%);
+    border: 2px solid var(--mainOrange);
     border-radius: 50%;
 }
 
@@ -197,7 +200,7 @@ div.carousel-indicators [data-bs-target] {
 }
 
 div.carousel-indicators button.active {
-    border: 3px solid hsl(26, 100%, 55%);
+    border: 3px solid var(--mainOrange);
     border-radius: 10px;
     opacity: .5;
 }
@@ -225,7 +228,7 @@ div.right-container {
 }
 
 div.right h6 {
-    color: hsl(26, 100%, 55%);
+    color: var(--mainOrange);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.7px;
@@ -234,7 +237,7 @@ div.right h6 {
 }
 
 div.right h2 {
-    color: hsl(220, 13%, 13%);
+    color: var(--darkBlue);
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 30px;
@@ -242,22 +245,22 @@ div.right h2 {
 
 div.right p.first-p {
     font-size: 16.5px;
-    color: hsl(219, 9%, 45%);
+    color: var(--darkGrayishBlue);
     line-height: 1.6;
     margin-bottom: 1.2rem;
 }
 
 div.right p.second-p {
     font-size: 31.5px;
-    color: hsl(220, 13%, 13%);
+    color: var(--darkBlue);
     font-weight: 700;
     margin-bottom: 0;
 }
 
 div.right p.second-p span {
     font-size: 18px;
-    color: hsl(26, 100%, 55%);
-    background-color: hsl(25, 100%, 94%);
+    color: var(--mainOrange);
+    background-color: var(--lightOrange);
     font-weight: 700;
     vertical-align: middle;
     padding: 4px 7px;
@@ -268,20 +271,20 @@ div.right p.second-p span {
 div.right p.third-p {
     font-weight: 700;
     font-size: 16.5px;
-    color: hsl(219, 9%, 45%);
+    color: var(--darkGrayishBlue);
     margin-bottom: 2.2rem;
 }
 
 div.btn-group {
     width: 35%;
     height: 55px;
-    background-color: hsl(223, 64%, 98%);
+    background-color: var(--lightGrayishBlue);
     border-radius: 8px;
 }
 
 span.num {
     margin: auto;
-    color: hsl(220, 13%, 13%);
+    color: var(--darkBlue);
     font-weight: 700;
     font-size: 16.5px;
     line-height: 1.5;
@@ -295,14 +298,14 @@ button.add-to-cart {
     width: 61%;
     border-radius: 8px;
     font-size: 16.5px;
-    background-color: hsl(26, 100%, 55%);
+    background-color: var(--mainOrange);
     color: hsl(0, 0%, 100%);
     height: 55px;
 }
 
 button.add-to-cart:hover {
-    background-color: hsl(25, 100%, 75%);
-    color: hsl(0, 0%, 100%);
+    background-color: var(--lightOrange);
+    color: var(--mainWhite);
 }
 
 .attribution { 
@@ -313,6 +316,7 @@ button.add-to-cart:hover {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
 
 @media (max-width: 991px) {
     nav {
@@ -335,7 +339,7 @@ button.add-to-cart:hover {
         position: fixed;
         top: 0px;
         left: 0px;
-        background-color: hsl(0, 0%, 100%) !important;
+        background-color: var(--mainWhite) !important;
         transition: 0.6s;
         width: 25rem;
         height: 100%;
@@ -362,7 +366,7 @@ button.add-to-cart:hover {
         letter-spacing: -0.03em;
         padding: 0 !important;
         margin: 0;
-        color: hsl(219, 9%, 45%) !important;
+        color: var(--darkGrayishBlue) !important;
     }
 
     .nav-link1 {
@@ -385,7 +389,7 @@ button.add-to-cart:hover {
     }
     
     .nav-link2 img:hover {
-        border: 2px solid hsl(26, 100%, 55%);
+        border: 2px solid var(--mainOrange);
         border-radius: 50%;
     }
 
@@ -408,7 +412,7 @@ button.add-to-cart:hover {
 
     button span.prev-icon,
     button span.next-icon {
-        background-color: hsl(0, 0%, 100%);
+        background-color: var(--mainWhite);
         border-radius: 50%;
         padding: 25%;
     }
