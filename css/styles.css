@@ -1,0 +1,488 @@
+
+* {
+    font-family: 'Kumbh Sans', sans-serif !important;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%) !important;
+    /* background-color: hsl(220, 13%, 13%) !important;
+    background-color: hsl(219, 9%, 45%) !important;
+    background-color: hsl(220, 14%, 75%) !important;
+    background-color: hsl(223, 64%, 98%) !important;
+    background-color: hsl(0, 0%, 100%) !important;
+    background-color: hsl(0, 0%, 0%) !important; */
+}
+
+nav {
+    padding: 0 10% !important;
+}
+
+nav div.container-fluid {
+    padding: 0 !important;
+    border-bottom: 1px solid hsl(220, 14%, 75%);
+}
+
+.navbar-brand {
+    padding: 0 !important;
+    margin-right: 3rem !important;
+    line-height: 100px;
+    color: hsl(220, 13%, 13%) !important;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+a.closebtn {
+    display: none;
+}
+
+.nav-link {
+    line-height: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    padding: 0 !important;
+    margin: 0 1rem;
+    color: hsl(219, 9%, 45%) !important;
+}
+
+.nav-link3:hover {
+    color: hsl(220, 13%, 13%) !important;
+    border-bottom: 2px solid hsl(26, 100%, 55%);
+    /* color: hsl(26, 100%, 55%);
+    color: hsl(25, 100%, 94%); */
+}
+
+.nav-link1 {
+    margin: 0 2rem;
+}
+
+.nav-link1 span.cart-num {
+    vertical-align: super;
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    font-size: 8px;
+    border-radius: 35%;
+    padding: 2px 6px;
+    position: relative;
+    left: -13px;
+    top: -3px;
+}
+
+li.nav-item div.dropdown-menu[data-bs-popper] {
+    top: 185%;
+    margin-top: 0;
+    padding: 0;
+    width: 370px;
+    height: 250px;
+    left: -165px;
+    border-radius: 9px;
+}
+
+li.nav-item div.dropdown-menu ul {
+    padding: 0;
+}
+
+h3.cart {
+    font-size: 16.5px;
+    font-weight: 700;
+    color: hsl(220, 13%, 13%);
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid hsl(220, 14%, 75%);
+}
+
+ul#buyItem h4 {
+    font-size: 16.5px;
+    margin-top: 22%
+}
+
+ul#buyItem li {
+    padding: 20px;
+}
+
+ul#buyItem li img {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+ul#buyItem li div h5,
+ul#buyItem li div p {
+    font-size: 16.5px;
+    font-weight: 400;
+    color: hsl(219, 9%, 45%);
+}
+
+ul#buyItem li div h5 {
+    margin-bottom: 5px;
+}
+
+ul#buyItem li div p {
+    margin: 0;
+}
+
+ul#buyItem li div p span {
+    font-weight: 700;
+    color: hsl(220, 13%, 13%);
+}
+
+ul#buyItem li button.delete {
+    padding: 0;
+}
+
+ul#buyItem li button.delete img {
+    width: 20px;
+    height: 20px
+}
+
+button.check-out {
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    font-size: 16.5px;
+    width: 89%;
+    height: 55px;
+    margin: 10px 20px;
+}
+
+.nav-link2 {
+    margin: 0 0 0 1rem;
+}
+
+.nav-link2 img {
+    width: 50px;
+}
+
+.nav-link2 img:hover {
+    border: 2px solid hsl(26, 100%, 55%);
+    border-radius: 50%;
+}
+
+section {
+    padding: 6% 10% !important;
+}
+
+div.carousel-inner {
+    border-radius: 20px;
+}
+
+button.carousel-control-prev,
+button.carousel-control-next {
+    display: none;
+}
+
+div.carousel-indicators {
+    position: relative;
+    justify-content: space-between !important;
+    margin: 15px 0 0 ;
+}
+
+div.carousel-indicators button:hover {
+    opacity: .5;
+}
+
+div.carousel-indicators [data-bs-target] {
+    width: 100px;
+    height: 100px;
+    margin-right: 0;
+    margin-left: 0;
+    text-indent: 0 !important;
+    opacity: 1;
+}
+
+div.carousel-indicators button.active {
+    border: 3px solid hsl(26, 100%, 55%);
+    border-radius: 10px;
+    opacity: .5;
+}
+
+img.img-thumbnail {
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+}
+
+/* div.container-fluid {
+    padding: 0;
+} */
+
+div.left {
+    padding: 0 6% 0 5%;
+}
+
+div.right {
+    padding: 0 6% 0 4%;
+}
+
+div.right-container {
+    margin-top: 13%;
+}
+
+div.right h6 {
+    color: hsl(26, 100%, 55%);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+div.right h2 {
+    color: hsl(220, 13%, 13%);
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+div.right p.first-p {
+    font-size: 16.5px;
+    color: hsl(219, 9%, 45%);
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+}
+
+div.right p.second-p {
+    font-size: 31.5px;
+    color: hsl(220, 13%, 13%);
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+div.right p.second-p span {
+    font-size: 18px;
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    font-weight: 700;
+    vertical-align: middle;
+    padding: 4px 7px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+div.right p.third-p {
+    font-weight: 700;
+    font-size: 16.5px;
+    color: hsl(219, 9%, 45%);
+    margin-bottom: 2.2rem;
+}
+
+div.btn-group {
+    width: 35%;
+    height: 55px;
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 8px;
+}
+
+span.num {
+    margin: auto;
+    color: hsl(220, 13%, 13%);
+    font-weight: 700;
+    font-size: 16.5px;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+}
+
+button.add-to-cart {
+    width: 61%;
+    border-radius: 8px;
+    font-size: 16.5px;
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    height: 55px;
+}
+
+button.add-to-cart:hover {
+    background-color: hsl(25, 100%, 75%);
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 991px) {
+    nav {
+        padding: 0 5% !important;
+    }
+    
+    nav div.container-fluid {
+        border-bottom: none;
+        justify-content: start !important;
+    }
+
+    nav button.navbar-toggler {
+        border: none;
+        border-radius: 50%;
+        margin-right: 0.75rem;
+        padding: 0.25rem 0;
+    }
+
+    nav div.navbar-collapse {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: hsl(0, 0%, 100%) !important;
+        transition: 0.6s;
+        width: 25rem;
+        height: 100%;
+        padding: 1rem 2rem;
+        z-index: 10;
+    }
+
+    a.closebtn {
+        display: block;
+    }
+
+    ul.navbar-nav {
+        padding-top: 2.5rem;
+    }
+
+    ul.nav {
+        margin-left: auto;
+    }
+
+    .nav-link {
+        line-height: 50px;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: -0.03em;
+        padding: 0 !important;
+        margin: 0;
+        color: hsl(219, 9%, 45%) !important;
+    }
+
+    .nav-link1 {
+        margin: 0 1rem;
+    }
+
+    li.nav-item div.dropdown-menu[data-bs-popper] {
+        top: 270%;
+        margin-top: 0;
+        width: 370px;
+        left: -248px;
+    }
+    
+    .nav-link2 {
+        margin: 0 0 0 0.5rem;
+    }
+
+    .nav-link2 img {
+        width: 25px;
+    }
+    
+    .nav-link2 img:hover {
+        border: 2px solid hsl(26, 100%, 55%);
+        border-radius: 50%;
+    }
+
+    section {
+        padding: 0!important;
+    }
+
+    div.left {
+        padding: 0!important;
+    }
+
+    button.carousel-control-prev,
+    button.carousel-control-next {
+        display: block;
+    }
+
+    div.carousel-inner {
+        border-radius: 0;
+    }
+
+    button span.prev-icon,
+    button span.next-icon {
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 50%;
+        padding: 25%;
+    }
+
+    div.carousel-indicators {
+        display: none;
+    }
+    
+    div.right {
+        padding: 0 5%;
+    }
+
+    div.right-container {
+        margin-top: 7%;
+    }
+
+    div.btn-group {
+        width: 100%;
+    }
+
+    button.add-to-cart {
+        width: 100%;
+    }
+
+    div.other-p {
+        margin-bottom: 17px;
+    }
+
+    div.right p.third-p {
+        margin: auto 0 auto auto;
+    }
+}
+
+@media (max-width: 375px) {
+    div.right h6 {
+        letter-spacing: 1.6px;
+        font-size: 12px;
+    }
+
+    div.right h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    
+    div.right p.first-p {
+        font-size: 15.5px;
+        line-height: 1.5;
+        margin-bottom: 1.2rem;
+    }
+    
+    div.right p.second-p {
+        font-size: 30.5px;
+        color: hsl(220, 13%, 13%);
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    
+    div.right p.second-p span {
+        font-size: 17px;
+        margin-left: 9px;
+    }
+    
+    div.right p.third-p {
+        font-size: 15.5px;
+        margin: auto 0 auto auto;
+    }
+    
+    button.minus,
+    button.num,
+    button.plus {
+        font-size: 15.5px;
+    }
+    
+    button.add-to-cart {
+        font-size: 15.5px;
+    }
+}
